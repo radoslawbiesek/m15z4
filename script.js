@@ -19,4 +19,5 @@ const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 average(...grades);
 
 // Exercise 5
-const c = [1, 4, 'Iwona', false, 'Nowak'];
+const strangeArr = [1, 4, 'Iwona', false, 'Nowak'];
+let [, , firstname, , lastname] = strangeArr;
